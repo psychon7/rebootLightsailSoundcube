@@ -15,7 +15,7 @@ def reboot_lightsail_instance(instance_name):
 
 def main():
     website_url = 'https://soundcube.shop'
-    lightsail_instance_name = 'soundcube'
+    lightsail_instance_name = 'SoundCubeNew'
 
     while True:
         if not is_website_up(website_url):
